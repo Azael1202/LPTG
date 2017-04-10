@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.azael.ltpg.App"
+    android:background="@drawable/fondo">
+
+    <LinearLayout
+        android:id="@+id/activity_body"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.azael.ltpg.App"
+        android:background="@drawable/fondo"
+        android:layout_alignTop="@+id/Re_menor0"
+        android:layout_centerHorizontal="true"
+        android:weightSum="1">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/inicio"
+            android:id="@+id/inicio"
+            android:rotation="270"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/inicio" />
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/solma"
+            android:id="@+id/solma"
+            android:rotation="270"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="11dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/reme"
+            android:id="@+id/re_menor"
+            android:rotation="270"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="66dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/rema"
+            android:id="@+id/re_mayor"
+            android:rotation="270"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="66dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/mime"
+            android:id="@+id/mi_menor"
+            android:rotation="270"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="66dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/mima"
+            android:id="@+id/mi_mayor"
+            android:rotation="270"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="66dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/lame"
+            android:id="@+id/la_menor"
+            android:rotation="270"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="66dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/lama"
+            android:id="@+id/la_mayor"
+            android:rotation="270"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="66dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/doma"
+            android:id="@+id/do_mayor"
+            android:rotation="270"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="66dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/do7"
+            android:id="@+id/do_7"
+            android:rotation="270"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="66dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/salida"
+            android:id="@+id/salida"
+            android:rotation="270"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="66dp"
+            android:background="@drawable/salida" />
+
+
+
+    </LinearLayout>
+
+</ScrollView>
